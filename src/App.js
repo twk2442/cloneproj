@@ -1,6 +1,7 @@
 import "./App.css";
 
 function main(props) {
+  // prototype 일단 css 없이 기본 코드 다 짜서 만든후 마지막에 css 코드작성
   return (
     <div className="container">
       <h1>Instagram</h1>
