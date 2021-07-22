@@ -1,6 +1,7 @@
 import "./App.css";
 
-function main(props) {
+function Main(props) {
+  //컴포넌트 이름 첫 글자는 대문자로 해야함
   // prototype 일단 css 없이 기본 코드 다 짜서 만든후 마지막에 css 코드작성
   return (
     <div className="container">
@@ -16,7 +17,11 @@ function main(props) {
 }
 
 function App() {
-  return <div className="App">{main}</div>;
+  return (
+    <div className="App">
+      <Main></Main>
+    </div>
+  );
 }
 
 export default App;
