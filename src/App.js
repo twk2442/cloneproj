@@ -74,10 +74,42 @@ function FirstBox(props) {
   );
 }
 
+function SecondBox(props) {
+  return (
+    <div>
+      <p>
+        계정이 없으신가요?
+        <a href="https://www.instagram.com/accounts/emailsignup/">가입하기</a>
+      </p>
+    </div>
+  );
+}
+
+function ThirdArea(props) {
+  return (
+    <div>
+      <p>앱을 다운로드하세요.</p>
+    </div>
+  );
+}
+
+function ThirdAppdDown(props) {
+  return (
+    <div>
+      <input
+        type="button"
+        value="App Store 에서 다운로드하기"
+        onClick="location.href='https://apps.apple.com/app/instagram/id389801252?vt=lo'"
+      ></input>
+    </div>
+  );
+}
 function App() {
   return (
     <div className="App">
       <FirstBox></FirstBox>
+      <SecondBox></SecondBox>
+      <ThirdAppdDown></ThirdAppdDown>
     </div>
   );
 }
