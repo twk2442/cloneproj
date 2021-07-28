@@ -5,6 +5,7 @@ import React from "react";
 function Db(props) {
   //컴포넌트 이름 첫 글자는 대문자로 해야함 (소문자로하면 js태그로 인식함)
   // prototype 일단 css 없이 기본 코드 다 짜서 만든후 마지막에 css 코드작성
+  // 중간마무리 .
   return (
     <div className="container">
       <form>
